@@ -1,0 +1,80 @@
+Network admin
+
+As a long-time consumer and occasional contributor to the StackExchange
+family of sites, I've found them to be a great resource. The now
+widely-imitated format for community-sourced questions and answers
+provides a very valuable service to the world. The careers site expands
+that value and is one of the more pleasant-to-use 'job boards' around. It
+also features postings such as this one, which provide me with an
+opportunity to apply to work for a company I respect that offers services
+I'm fond of. I would take pride in maintaining and developing the
+networking infrastructure of such services, and I have the knowledge and
+skills to succeed in doing so.
+
+At my last position as a sysadmin, I was effectively solely responsible
+for maintaining and improving the (surprisingly convoluted) networking
+infrastructure. I created a system to allow for automating backups and
+configuration management for the couple-dozen HP switches that served ~250
+total machines. I also managed the network firewalls, migrating us from a
+single openBSD-based pf firewall to multiple instances of of Cisco FWSM,
+enabling easier to maintain and understand (and thus more secure)
+firewalls for differing network segments. Additionally, I have configured
+a couple Cisco switches as borrowed replacements due to hardware failure.
+
+The other large component to that position was automating installation &
+configuration management for both Linux (first Fedora, then CentOS, then
+ScientificLinux, then Ubuntu) and Windows (using SCCM). During my tenure,
+I researched and evaluated multiple different solutions for Linux,
+eventually taking us from a tarball extracted after installation, to
+leveraging Cobbler and it's simple file templates, to Ansible, and then to
+Puppet (& Ubuntu) in order to better align and merge with another unit.
+
+Over the past 9 months I've had the wonderful fortune of working with a
+small group of friends to architect & engineer some incredibly awesome
+software, primarily in the realm of innovative educational tools.
+Unfortunately, because of some poor business decisions by the owners along
+with a lack of the growth they anticipated, the company doesn't have
+enough work to keep me suitably employed, which is why I'm seeking other
+employment. Creative problem solving is at the core of the work I have
+been doing, a talent developed through a life-long love of seeking new
+challenges and how they engage my mind, and a skill I'm excited to bring
+to new endeavors.
+
+For additional information about me, please refer to my profile and
+résumé. Thank you for your consideration.
+
+Sincerely, Benjamin Riggs
+
+
+Sysadmin
+
+There's a certain delight in visiting a job board run by a well-respected
+site only to discover a posting for a position helping run that very site,
+particularly when that position dovetails nicely with ones own experience.
+And thus it is that I am writing this.
+
+At my last position as a sysadmin, one of my larger focuses was on
+maintaining the infrastructure for our configuration management tools and
+our automated installation tools, both on Linux and Windows. For many
+years, we used Cobbler, for which I have contributed several patches, to
+manage Fedora & CentOS hosts. Later we switched to Foreman & Puppet as we
+migrated to Ubuntu in order to merge with another unit. Additionally, our
+Windows hosts were managed by SCCM, first 2008 and then 2012. I left that
+position to pursue a unique and exciting new opportunity with a burgeoning
+design & engineering startup.
+
+Over the past 9 months I've had the wonderful fortune of working with a
+small group of friends to design, develop & engineer some incredibly
+awesome projects, primarily in the realm of innovative educational tools.
+Unfortunately, because of some poor business decisions by the owners along
+with a lack of the growth they anticipated, the company doesn't have
+enough work to keep me suitably employed, which is why I'm seeking other
+employment. Creative problem solving is at the core of the work I have
+been doing, a talent developed through a life-long love of seeking new
+challenges and how they engage my mind, and a skill I'm excited to bring
+to new endeavors.
+
+For additional information about me, please refer to my profile and
+résumé. Thank you for your consideration.
+
+Sincerely, Benjamin Riggs

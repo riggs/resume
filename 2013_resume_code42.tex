@@ -1,0 +1,181 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+% Must be the last line:
+\usepackage[pdftex,colorlinks]{hyperref}
+
+\begin{document}
+
+%\newsectionwidth{1.5in}
+%\sectionwidth=1.5in
+%\resumewidth=8in
+
+\name{Benjamin A. S. Riggs}
+% \address used twice to have two lines of address
+\address{3301 Elliot Ave S. Apt 1, Minneapolis, MN 55407}
+\address{deisum@gmail.com 612.205.9789}
+ 
+\begin{resume}
+ 
+\section{SUMMARY}
+    Experienced systems administrator skilled at providing support and
+    automation for desktops and servers in a heterogeneous networked
+    environment seeks enriching position preferring open tools to maintain
+    Linux-based servers and networking infrastructure. 
+ 
+\section{COMPUTER \\ EXPERTISE}
+    % \sl will be bold italic in New Century Schoolbook (or
+    % any postscript font) and just slanted in
+    % Computer Modern (default) font
+    Software Services:
+    \vspace{2 mm}
+    \begin{itemize} \itemsep -1pt %reduce space between items
+        \item Deployed and administered services providing authentication
+        \& authorization, file storage \& backup, secure printing, network
+        connectivity \& security, and personal \& departmental web presence.
+%        \item Deployed and administered services including LDAP, kerberos,
+%        NFS, samba, CUPS, rsnapshot, and apache, both from scratch and as
+%        upgrades to existing services.
+        \item Reduced hardware needs and replaced legacy hardware with
+        virtual machines hosted by KVM hypervisors and managed by RedHat's
+        libvert tool suite.
+        \item Replaced legacy patch-work OS \& software installations with
+        modern Linux deployment \& package management software,
+        \href{http://cobbler.github.com/}{Cobbler}.
+        \item Contributed to Cobbler with multiple patches for new
+        features and bug-fixes.
+        \item Built software packages for wide-scale deployment using RPM
+        toolchain.
+        \item Improved monitoring, notification, and reporting services by
+        migrating from Nagios to Zenoss.
+        \item Wrote and maintained administrative scripts primarily using
+        Python, including migrating scripts from Perl and Bash.
+    \end{itemize}
+
+    Network Management:
+    \vspace{2 mm}
+    \begin{itemize} \itemsep -1pt %reduce space between items
+        \item Modified multiple VLAN and subnet configuration to provide
+        improved logical network topology and security on hardware from
+        HP and Cisco.
+        \item Implemented and managed network border firewalls with
+        OpenBSD's pf and Cisco PIX.
+        \item Administered host-specific firewalls with iptables and Group
+        Policy.
+    \end{itemize}
+
+    Operating System Support:
+    \vspace{2 mm}
+    \begin{itemize} \itemsep -1pt %reduce space between items
+        \item Configured and maintained dozens of servers and hundreds of
+        desktops running Fedora, CentOS, and Scientific Linux.
+        \item Configured and maintained dozens of laptops and desktops
+        running Windows and Mac OS X.
+        \item Leveraged tools to automate installation and update of
+        operating systems and software packages.
+    \end{itemize}
+
+    Hardware Support:
+    \vspace{2 mm}
+    \begin{itemize} \itemsep -1pt %reduce space between items
+        \item Determined requirements and specifications for hardware purchases.
+        \item Built and repaired hardware using commodity components.
+    \end{itemize}
+
+
+\section{COMMUNI- \\ CATION SKILLS}
+
+    Documentation:
+    \vspace{2 mm}
+    \begin{itemize} \itemsep -1pt %reduce space between items
+        \item Ensured new documentation for processes and technologies
+        focused on concise explanation of configuration decisions as well
+        as set-by-step set-up instructions.
+%        \item Created documentation for new processes and technologies
+%        focusing on concise explanations for configuration decisions as
+%        well as step-by-step instructions.
+        \item Solicited feedback from peer-review by someone unfamiliar
+        with the process or technology, and provided feedback as such.
+        \item Modified documentation as appropriate for audiences of end
+        users, internal customers, and peers.
+%        \item Created documentation for use by end users, internal
+%        customers, and peers.
+        \item Updated, improved, and created documentation in code of
+        administrative scripts.
+    \end{itemize}
+
+    Peer Collaboration:
+    \vspace{2 mm}
+    \begin{itemize} \itemsep -1pt %reduce space between items
+        \item Improved understanding and familiarity of work topics and
+        provided expertise by attending local peer groups as well as
+        regional and national conferences.
+        \item Sought assistance with my own and provided answers to
+        others' challenges by leveraging mailing lists and IRC channels.
+        \item Lead and participated in group discussions and
+        problem-solving sessions with coworkers and peers.
+        \item Participant in local Python user group,
+        \href{http://www.python.mn/}{PyMNtos}. 
+    \end{itemize}
+
+    End User Support:
+    \vspace{2 mm}
+    \begin{itemize} \itemsep -1pt %reduce space between items
+        \item Adjusted level of technical detail provided to users based
+        on stated preferences and technical expertise.
+        \item Supported users with technical skill levels ranging from
+        complete novice to domain expert.
+        \item Accommodated vastly differing personalities and communication
+        styles while maintaining professionalism and courtesy.
+        \item Interacted via RT ticketing system, phone, in-person, direct
+        email, and instant-message.
+        \item Received verbal and written praise from users for both
+        responsiveness and level of support provided.
+    \end{itemize}
+
+
+\section{RELATED WORK HISTORY}
+    Information Technology Professional at University of Minnesota School
+    of Mathematics, Minneapolis, July 2008 to present.
+    \vspace{1.5 mm} \\
+    IT student worker at U of M School of Math, Minneapolis, January 2007
+    to July 2008
+    \vspace{1.5 mm} \\
+    Bicycle Mechanic at Calhoun Cycle, Minneapolis, June 2005 to January
+    2007.
+
+\section{EDUCATION}
+    Various classes at University of Minnesota, including graduate level
+    courses in physics \& math, January 2006 to May 2010.
+    \vspace{1.5 mm} \\
+    Iowa State University, 2000 to 2001.
+    \vspace{1.5 mm} \\
+    Post Secondary Enrolment Option (PSEO): University of Minnesota,
+    1998-2000.
+    \vspace{1.5 mm} \\
+    University of Minnesota Talented Youth Math Program (UMTYMP):
+    1995-2000.
+    \vspace{1.5 mm} \\
+    Eden Prairie High School, Class of 2000.
+
+\section{OTHER SKILLS \\ \& INTERESTS}
+    Transportation cycling enthusiast and year-round cyclist, despite
+    challenges imposed by widely varying weather conditions throughout the
+    year, particularly winter.
+    \vspace{1.5 mm} \\
+    Extensive problem solving experience from life-long aptitude in
+    mathematics; numerous mathematics, physics and engineering courses;
+    years of bicycle maintenance and repair; and growing up playing with
+    LEGOs, BRIO trains, puzzles, and other toys.
+    \vspace{1.5 mm} \\
+    Avid interest, thorough understanding, and recreational use of Python
+    programming language.
+    \vspace{1.5 mm} \\
+    Actively participated in community-building activities such as Habitat
+    for Humanity, Appalachian Service Project, and Make a Difference Day,
+    as well as local bicycling-community events and advocacy.
+
+\end{resume}
+\end{document}

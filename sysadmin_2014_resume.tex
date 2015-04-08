@@ -1,0 +1,101 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+% Must be the last line:
+\usepackage[pdftex,colorlinks]{hyperref}
+
+\begin{document}
+
+%\newsectionwidth{1.5in}
+%\sectionwidth=1.5in
+%\resumewidth=8in
+
+\input{resume_header}
+ 
+\begin{resume}
+ 
+\section{SUMMARY}
+    Experienced systems administrator and engineer adept at design,
+    automation and support of heterogeneous environments seeks dynamic
+    position, preferring the use of open tools, to leverage primarily
+    Linux-based infrastructure. 
+ 
+
+\section{TECHNICAL \\ EXPERTISE}
+    % \sl will be bold italic in New Century Schoolbook (or
+    % any postscript font) and just slanted in
+    % Computer Modern (default) font
+    Software:
+    \vspace{1 mm}
+    \begin{itemize} \itemsep -1.5pt %reduce space between items
+        \item Designed, deployed and maintained services providing
+        authentication \& authorization, data storage, secure
+        connectivity, and web presence.
+        \item Managed virtual machine and cloud infrastructure to mitigate
+        hardware needs.
+        \item Improved efficiency and consistency of software installation
+        and administration by leveraging modern deployment and
+        configuration management tools.
+        \item Contributed patches for features and bug-fixes to upstream
+        repositories.
+        \item Designed, managed and improved monitoring and notification
+        services.
+        \item Deployed and administered servers, desktops, and laptops
+        running various flavors of Linux, Windows, and OS X.
+    \end{itemize}
+    \vspace{-3 mm}
+
+    Networking:
+    \vspace{1 mm}
+    \begin{itemize} \itemsep -1.5pt %reduce space between items
+        \item Managed physical and logical networks to improve topology
+        and security.
+        \item Implemented and maintained border and host firewalls using
+        both specialized and commodity hardware and software.
+    \end{itemize}
+    \vspace{-3 mm}
+
+    Hardware:
+    \vspace{1 mm}
+    \begin{itemize} \itemsep -1.5pt %reduce space between items
+        \item Determined requirements and specifications for hardware purchases.
+        \item Built and repaired hardware using commodity components.
+    \end{itemize}
+
+
+\section{COMMUNI- \\ CATION SKILLS}
+
+    Peer Communications:
+    \vspace{1 mm}
+    \begin{itemize} \itemsep -1.5pt %reduce space between items
+        \item Collaborated with peers in local groups, mailing lists and
+        IRC channels.
+        \item Updated and created documentation focusing on concise
+        explanation for configuration decisions as well as step-by-step
+        instructions for set-up.
+        \item Ensured documentation had appropriate level of detail for
+        various audiences.
+    \end{itemize}
+    \vspace{-3 mm}
+
+    End User Support:
+    \vspace{1 mm}
+    \begin{itemize} \itemsep -1.5pt %reduce space between items
+        \item Accommodated vastly differing personalities, technical
+        proficiencies, and communication styles while maintaining
+        professionalism and courtesy.
+        \item Received verbal and written praise from users for both
+        responsiveness and level of support provided.
+    \end{itemize}
+
+
+\input{resume_work_history}
+
+\input{resume_education}
+
+\input{resume_other_skills}
+
+\end{resume}
+\end{document}

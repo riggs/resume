@@ -1,0 +1,105 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+% Must be the last line:
+\usepackage[pdftex,colorlinks]{hyperref}
+
+\begin{document}
+
+%\newsectionwidth{1.5in}
+%\sectionwidth=1.5in
+%\resumewidth=8in
+
+\input{resume_header}
+ 
+\begin{resume}
+ 
+\section{SUMMARY}
+    Knowledgeable Python engineer with background in integration and
+    administration of hardware and software systems in heterogeneous
+    environments seeks opportunity to further develop software architecture
+    and engineering ability while leveraging extensive language knowledge
+    and adept problem-solving skills.
+
+
+\section{TECHNICAL \\ EXPERTISE}
+    % \sl will be bold italic in New Century Schoolbook (or
+    % any postscript font) and just slanted in
+    % Computer Modern (default) font
+
+    Software Engineering:
+    \vspace{1 mm}
+    \begin{itemize}
+        \itemsep -1.5pt % Reduce space between items
+        \item Designed and deployed local and remote APIs used in
+            production services.
+        \item Created integrated interfaces for relational and
+            non-relational databases.
+        \item Leveraged existing APIs to create interoperability between
+            disparate software.
+        \item Focused on usability as well as functionality when designing
+            both UIs and APIs.
+        \item Evaluated options in the solution domain to determine best
+            approach to satisfy project requirements given available
+            resources, both internal and external.
+        \item Contributed patches for features and bug-fixes to upstream
+            repositories.
+        \item Advanced knowledge and experience with Python, intermediate
+            to novice skill with bash, PHP, JavaScript, .NET, PowerShell,
+            Java, C.
+    \end{itemize}
+    \vspace{-3 mm}
+
+    Systems Engineering and Administration:
+    \vspace{1 mm}
+    \begin{itemize}
+        \itemsep -1.5pt % Reduce space between items
+        \item Designed and maintained web APIs, storage, authentication \&
+            authorization, network connectivity, monitoring, security, and
+            virtual machine infrastructure.
+        \item Architected and engineered improvements to physical and
+            logical networks.
+        \item Procured, repaired, managed, and deployed server and
+            consumer hardware.
+    \end{itemize}
+
+\section{COMMUNI- \\ CATION SKILLS}
+
+    Peer Communications:
+    \vspace{1 mm}
+    \begin{itemize}
+        \itemsep -1.5pt %reduce space between items
+        \item Collaborated with peers in local groups, mailing lists and
+        IRC channels.
+        \item Presented unique solutions to challenges for professional
+        and enthusiast groups.
+        \item Updated and created documentation focusing on concise
+        explanation for design decisions as well as detailed usage
+        instructions.
+        \item Ensured documentation had appropriate level of detail for
+        various audiences.
+    \end{itemize}
+    \vspace{-3 mm}
+
+    User Support:
+    \vspace{1 mm}
+    \begin{itemize}
+        \itemsep -1.5pt %reduce space between items
+        \item Accommodated vastly differing personalities, technical
+        proficiencies, and communication styles while maintaining
+        professionalism and courtesy.
+        \item Received verbal and written praise from users for both
+        responsiveness and level of support provided.
+    \end{itemize}
+
+
+\input{resume_work_history}
+
+\input{resume_education}
+
+\input{resume_other_skills}
+
+\end{resume}
+\end{document}
